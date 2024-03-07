@@ -1,23 +1,7 @@
 import streamlit as st
 
-# st.write('Hello world')
-
-# x = st.text_input('Favourite Movie?')
-# st.write(f'Your Favourite Movie is {x}')
-
 import pandas as pd
 import matplotlib.pyplot as plt
-import math
-
-# import numpy as np
-# data=pd.read_csv('NIFTY 50.csv')
-# st.write(data)
-
-# st.write('# My Cool Chart')
-
-# chart_data = data
-
-# st.bar_chart(chart_data)
 
 st.title("Mortgage Repayment Calculator")
 
