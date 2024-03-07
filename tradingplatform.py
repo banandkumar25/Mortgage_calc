@@ -37,7 +37,7 @@ for i in range(1, number_of_payments + 1):
     interest_payment = remaining_balance *monthly_interest_rate
     principal_payment =monthly_payment - interest_payment
     remaining_balance -= principal_payment
-    year = math.ceil(i/12)
+    year = round(i/12)
     schedule.append(
         [
             i,
